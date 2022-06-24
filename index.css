@@ -1,0 +1,144 @@
+/*=========================
+* Filename: index.css
+* Template: Project 2 
+* Author: Gary LaBranche
+* Date Created: 8/30/2012
+=========================*/
+
+
+/*==========LAYOUT==========*/
+body 
+{
+	background: url(img/bg.png) no-repeat center center fixed; 
+	background-size: cover;
+} 
+#container
+{
+	margin: 0 auto;
+	width: 650px;
+	background:transparent;
+	color:#fff;
+	font-family: "lucida sans unicode","lucida grande",sans-serif
+}
+#header
+{
+	background:#ccc;
+	padding: 20px;
+	background:url(img/banner2.png);
+	background-size: 100%; 
+	height:200px;
+}
+#header h1 
+{ 
+	margin: 0; 
+}
+.center 
+{
+	text-align: center;
+}
+
+
+/*==========CONTENT==========*/
+#content
+{
+	clear: left;
+	padding: 20px;
+}
+
+#content h2
+{
+	color:#fff;
+	font-size: 160%;
+	margin: 0 0 .5em;
+}
+
+
+/*==========NAVIGATION TOP==========*/
+#navigation
+{
+	float: left;
+	width: 650px;
+	background:#333;
+}
+
+#navigation ul
+{
+	padding: 0;
+	width: 50em;
+	margin: auto;
+	font-size:15px
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 10px 12.4px;
+	color:#ffffff;
+	text-decoration: none;
+}
+
+#navigation li a:hover 
+{ 
+	background:#26466D;
+}
+
+
+/*==========NAVIGATION BOTTOM==========*/
+#nav2
+{
+	float: left;
+	width: 650px;
+	background:#333;
+}
+
+#nav2 ul
+{
+	padding: 0;
+	width: 40em;
+	margin: auto;
+}
+
+#nav2 ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#nav2 li a
+{
+	display: block;
+	float: left;
+	padding: 5px 18px;
+	color:#ffffff;
+	text-decoration: none;
+	font-size:12px
+}
+
+
+/*==========FOOTER==========*/
+#footer
+{
+	background:#ccc;
+	text-align: right;
+	height: 5%;
+}
+.contact 
+{ 
+	width: 150px;
+	padding-bottom: 10px;
+}
+.copyright { 
+	background-color: #ccc;
+	color: #000000;
+	padding-top:50px;
+	padding-bottom:1px;
+	padding-left:10px;
+	text-align:left;
+}
