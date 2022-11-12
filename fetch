@@ -1,0 +1,26 @@
+function requestUserRepos(username){
+    // create a variable to hold the `Promise` returned from `fetch`
+    return Promise.resolve(fetch(`https://api.github.com/users/${username}/repos`));
+}
+
+// call function, passing in any GitHub username as an arg
+requestUserRepos('facebook')
+  // parse response into json
+  .then(response => response.json())
+  // log response data
+  .then(data => console.log(data));
+  
+  // iterate through parsed response
+  .then(data => {
+    // Log the repo name
+    console.log('Repo:', data[i].name);
+
+    // Log the repo description
+    console.log('Description:', data[i].description);
+
+    // Log the repo url
+    console.log('URL:', data[i].html_url);
+
+    // Add a separator between each repo
+    console.log('=========================') 
+})
