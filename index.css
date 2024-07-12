@@ -7,6 +7,26 @@
 
 
 /*==========LAYOUT==========*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 body 
 {
 	background: url(https://i.pinimg.com/736x/6b/60/34/6b6034f7da39a858875b9c73f54b703d.jpg) no-repeat center center fixed; 
