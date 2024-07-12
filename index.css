@@ -83,7 +83,7 @@ body
 #navigation ul
 {
 	padding: 0;
-	width: 50em;
+	width: 40em;
 	margin: auto;
 	font-size:15px
 }
@@ -98,7 +98,7 @@ body
 {
 	display: block;
 	float: left;
-	padding: 10px 12.4px;
+	padding: 5px 18px;
 	color:#ffffff;
 	text-decoration: none;
 }
