@@ -18,7 +18,7 @@
 /* Basic styling for the layout */
 .container {
   display: flex; /* Use flexbox for layout */
-  max-width: 800px; /* Limit width of the container */
+  max-width: 350px; /* Limit width of the container */
   margin: 0 auto; /* Center align container */
 }
 
